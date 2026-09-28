@@ -1,0 +1,36 @@
+{
+  "conservative_cost_upper_usd": 15.412683762,
+  "contains_case_text": false,
+  "cost_cap_usd": 17.5,
+  "estimated_success_cost_usd": 15.412683762,
+  "expected_requests": 45570,
+  "failed_request_cost_upper_usd": 0.0,
+  "input_tokens": 366968661,
+  "latency_seconds_by_arm": {
+    "all23": {
+      "count": 22785,
+      "mean": 0.3271,
+      "median": 0.3188,
+      "p90": 0.3634
+    },
+    "four": {
+      "count": 22785,
+      "mean": 0.2287,
+      "median": 0.2218,
+      "p90": 0.2617
+    }
+  },
+  "model": "jev-1.13.0",
+  "output_tokens": 11870985,
+  "recorded_failure_events": 0,
+  "recorded_session_wall_seconds": 4233.89,
+  "retry_count_total": 0,
+  "run_id": "mentalbench_holdout_v1_1_both_arms",
+  "stop_reason": null,
+  "successful_by_arm": {
+    "all23": 22785,
+    "four": 22785
+  },
+  "successful_requests": 45570,
+  "updated_at_utc": "2026-09-27T20:44:11.206832+00:00"
+}

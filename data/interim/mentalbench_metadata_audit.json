@@ -1,0 +1,185 @@
+{
+  "answer_letter_count_by_type": {
+    "type1": {
+      "1": 1725
+    },
+    "type2": {
+      "1": 3450
+    },
+    "type3": {
+      "2": 6525
+    },
+    "type4": {
+      "1": 13050
+    }
+  },
+  "candidate_seed_grouping_assumption": "Consecutive blocks of five id numbers correspond to five profiles per source seed; validate against source generation process before a split.",
+  "candidate_seed_groups_in_first_100_rows": 7,
+  "code_count": 110,
+  "code_prefix_count": {
+    "D001": 5,
+    "D002": 4,
+    "D003": 3,
+    "D004": 8,
+    "D005": 6,
+    "D006": 3,
+    "D007": 3,
+    "D008": 5,
+    "D009": 6,
+    "D010": 3,
+    "D011": 5,
+    "D012": 5,
+    "D013": 4,
+    "D014": 4,
+    "D015": 3,
+    "D016": 6,
+    "D017": 7,
+    "D018": 9,
+    "D019": 5,
+    "D020": 2,
+    "D021": 6,
+    "D022": 3,
+    "D023": 5
+  },
+  "code_size_min_max": [
+    225,
+    225
+  ],
+  "codes_per_type": {
+    "type1": 23,
+    "type2": 23,
+    "type3": 87,
+    "type4": 87
+  },
+  "diagnosis_pair_code_count": 87,
+  "distinct_option_sets_per_candidate_seed": {
+    "1": 780
+  },
+  "empty_fields": {},
+  "fields": [
+    "type",
+    "code",
+    "model",
+    "id",
+    "question",
+    "option",
+    "answer"
+  ],
+  "file_bytes": 32611200,
+  "group_summaries": {
+    "candidate_seed": {
+      "groups": 780,
+      "rows_per_group": {
+        "15": 345,
+        "45": 435
+      }
+    },
+    "code": {
+      "groups": 110,
+      "rows_per_group": {
+        "225": 110
+      }
+    },
+    "code_id": {
+      "groups": 3900,
+      "rows_per_group": {
+        "3": 1725,
+        "9": 2175
+      }
+    },
+    "id": {
+      "groups": 100,
+      "rows_per_group": {
+        "69": 75,
+        "783": 25
+      }
+    },
+    "option_hash": {
+      "groups": 740,
+      "rows_per_group": {
+        "15": 275,
+        "30": 26,
+        "45": 435,
+        "60": 3,
+        "90": 1
+      }
+    },
+    "question_hash": {
+      "groups": 24750,
+      "rows_per_group": {
+        "1": 24750
+      }
+    },
+    "type_code": {
+      "groups": 220,
+      "rows_per_group": {
+        "75": 110,
+        "150": 110
+      }
+    },
+    "type_code_id": {
+      "groups": 6075,
+      "rows_per_group": {
+        "3": 3900,
+        "6": 2175
+      }
+    },
+    "type_code_id_answer": {
+      "groups": 8250,
+      "rows_per_group": {
+        "3": 8250
+      }
+    },
+    "type_code_id_model": {
+      "groups": 18225,
+      "rows_per_group": {
+        "1": 11700,
+        "2": 6525
+      }
+    },
+    "type_id": {
+      "groups": 125,
+      "rows_per_group": {
+        "69": 75,
+        "261": 25,
+        "522": 25
+      }
+    }
+  },
+  "id_prefix_counts": {
+    "h": 19575,
+    "l": 1725,
+    "m": 3450
+  },
+  "malformed_ids": 0,
+  "model_counts": {
+    "gemini": 8250,
+    "gpt5": 8250,
+    "qwen235": 8250
+  },
+  "partial_five_id_blocks_within_code_option_sets": 0,
+  "question_chars_min_median_max": [
+    403,
+    1066,
+    2302
+  ],
+  "question_duplicate_groups": 0,
+  "question_duplicate_rows": 0,
+  "revision": "1b1d88771ab92744a77bd9e05ce762a654b9551d",
+  "rows": 24750,
+  "sha256": "92b8d1c835a1aad22161e2b4bc1444823ed22d91275df99463b3b5e488bec957",
+  "single_codes_absent_from_pairs": [],
+  "single_diagnosis_code_count": 23,
+  "source": "https://huggingface.co/datasets/hysong/MentalBench",
+  "type_counts": {
+    "type1": 1725,
+    "type2": 3450,
+    "type3": 6525,
+    "type4": 13050
+  },
+  "types_per_code_id": {
+    "1": 1725,
+    "2": 2175
+  },
+  "unique_question_hashes": 24750
+}

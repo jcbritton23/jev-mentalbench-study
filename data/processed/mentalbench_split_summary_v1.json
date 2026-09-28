@@ -1,0 +1,48 @@
+{
+  "development_seed_coverage_min_max": [
+    5,
+    8
+  ],
+  "generator_counts": {
+    "exploration": {
+      "gemini": 655,
+      "gpt5": 655,
+      "qwen235": 655
+    },
+    "holdout": {
+      "gemini": 7595,
+      "gpt5": 7595,
+      "qwen235": 7595
+    }
+  },
+  "group_counts": {
+    "exploration": 107,
+    "holdout": 673
+  },
+  "group_manifest_sha256": "9f58baf357fd4da0764b85ccb25ae557fe04048599568fae4f19baad98f3055d",
+  "preview_groups_in_exploration": 7,
+  "raw_text_in_manifests": false,
+  "row_counts": {
+    "exploration": 1965,
+    "holdout": 22785
+  },
+  "row_manifest_sha256": "159ac6be6491d3ab46cc8a4ef1ea068536e4b7ccd186898a4648b7f776808926",
+  "selected_pair_code_count": 12,
+  "selection_salt": "jev-psych-2026-09-27-split-v1",
+  "source_sha256": "92b8d1c835a1aad22161e2b4bc1444823ed22d91275df99463b3b5e488bec957",
+  "type_counts": {
+    "exploration": {
+      "type1": 735,
+      "type2": 690,
+      "type3": 180,
+      "type4": 360
+    },
+    "holdout": {
+      "type1": 990,
+      "type2": 2760,
+      "type3": 6345,
+      "type4": 12690
+    }
+  },
+  "version": "mentalbench-seed-groups-v1"
+}

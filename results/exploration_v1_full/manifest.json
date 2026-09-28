@@ -1,0 +1,30 @@
+{
+  "arms": [
+    "all23",
+    "four"
+  ],
+  "contains_case_text": false,
+  "expected_cases": 1965,
+  "expected_groups": 107,
+  "expected_requests": 3930,
+  "guide_sha256": {
+    "basic_diagnosis_guides_v0.md": "9685fd0f0c713409a0beba018cddadbf9c3449370eff81fa474afc5b46e4a27f",
+    "complex_diagnosis_guides_v0.md": "a197697b6e0751d1fb56194b99e4eb5132f63552da5dfc61f96a45c0fbe1a4fb",
+    "d013_mdd_sample_v0.md": "05e544044be56b27dda230b1c7d3dda8c0c953dc7163ea52ce10df836d17ec76"
+  },
+  "max_run_cost_usd": 2.5,
+  "model": "jev-1.13.0",
+  "price_per_input_token_usd": 4.2000000000000006e-08,
+  "prompt_description_sha256": "3a1dd85255b0d3f8588558e64b7659740ffbcded69d6994ed23d54c8e84efd48",
+  "prompt_version": "v1_candidate",
+  "question_builder_sha256": "ee4994e8bbec73c83296ab08c9a33f2aab931f1a06826fa35732d24e213f8c6e",
+  "row_split_sha256": "159ac6be6491d3ab46cc8a4ef1ea068536e4b7ccd186898a4648b7f776808926",
+  "run_id": "mentalbench_exploration_v1_both_arms",
+  "source_sha256": "92b8d1c835a1aad22161e2b4bc1444823ed22d91275df99463b3b5e488bec957",
+  "type_counts": {
+    "type1": 735,
+    "type2": 690,
+    "type3": 180,
+    "type4": 360
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "aggregate_usage": {
+    "elapsed_seconds_total_sequential": 1.1227,
+    "estimated_cost_usd": 0.002177616,
+    "input_tokens": 51848,
+    "output_tokens": 1764
+  },
+  "cases": [
+    {
+      "arms": {
+        "v0": {
+          "all23_at_each_cutoff": {
+            "0.50": [
+              "D012"
+            ],
+            "0.70": [
+              "D012"
+            ],
+            "0.80": [
+              "D012"
+            ],
+            "0.90": [
+              "D012"
+            ]
+          },
+          "elapsed_seconds": 0.3747,
+          "estimated_cost_usd": 0.000539994,
+          "input_tokens": 12857,
+          "key_probabilities": {
+            "D012": 0.95,
+            "D016": 0.08
+          },
+          "key_ranks": {
+            "D012": 1,
+            "D016": 3
+          },
+          "model": "jev-1.13.0",
+          "offered_at_each_cutoff": {
+            "0.50": [
+              "D012"
+            ],
+            "0.70": [
+              "D012"
+            ],
+            "0.80": [
+              "D012"
+            ],
+            "0.90": [
+              "D012"
+            ]
+          },
+          "output_tokens": 441,
+          "probabilities": {
+            "D001": 0.04,
+            "D002": 0.05,
+            "D003": 0.04,
+            "D004": 0.03,
+            "D005": 0.03,
+            "D006": 0.03,
+            "D007": 0.03,
+            "D008": 0.03,
+            "D009": 0.04,
+            "D010": 0.03,
+            "D011": 0.08,
+            "D012": 0.95,
+            "D013": 0.06,
+            "D014": 0.05,
+            "D015": 0.03,
+            "D016": 0.08,
+            "D017": 0.02,
+            "D018": 0.07,
+            "D019": 0.04,
+            "D020": 0.07,
+            "D021": 0.02,
+            "D022": 0.02,
+            "D023": 0.02
+          },
+          "top1_code": "D012",
+          "top1_probability": 0.95
+        },
+        "v1": {
+          "all23_at_each_cutoff": {
+            "0.50": [
+              "D012"
+            ],
+            "0.70": [
+              "D012"
+            ],
+            "0.80": [
+              "D012"
+            ],
+            "0.90": [
+              "D012"
+            ]
+          },
+          "elapsed_seconds": 0.233,
+          "estimated_cost_usd": 0.000548772,
+          "input_tokens": 13066,
+          "key_probabilities": {
+            "D012": 0.95,
+            "D016": 0.09
+          },
+          "key_ranks": {
+            "D012": 1,
+            "D016": 3
+          },
+          "model": "jev-1.13.0",
+          "offered_at_each_cutoff": {
+            "0.50": [
+              "D012"
+            ],
+            "0.70": [
+              "D012"
+            ],
+            "0.80": [
+              "D012"
+            ],
+            "0.90": [
+              "D012"
+            ]
+          },
+          "output_tokens": 441,
+          "probabilities": {
+            "D001": 0.04,
+            "D002": 0.05,
+            "D003": 0.04,
+            "D004": 0.03,
+            "D005": 0.03,
+            "D006": 0.03,
+            "D007": 0.03,
+            "D008": 0.04,
+            "D009": 0.04,
+            "D010": 0.03,
+            "D011": 0.09,
+            "D012": 0.95,
+            "D013": 0.06,
+            "D014": 0.04,
+            "D015": 0.03,
+            "D016": 0.09,
+            "D017": 0.02,
+            "D018": 0.07,
+            "D019": 0.04,
+            "D020": 0.07,
+            "D021": 0.02,
+            "D022": 0.02,
+            "D023": 0.02
+          },
+          "top1_code": "D012",
+          "top1_probability": 0.95
+        }
+      },
+      "benchmark_key_codes": [
+        "D012",
+        "D016"
+      ],
+      "case_type": "type3",
+      "offered_option_codes": [
+        "D010",
+        "D012",
+        "D016",
+        "D018"
+      ],
+      "pair_code": "D012_D016",
+      "source_group_id": "D012_D016:h:01",
+      "source_row_index": 8279
+    },
+    {
+      "arms": {
+        "v0": {
+          "all23_at_each_cutoff": {
+            "0.50": [
+              "D014",
+              "D013",
+              "D009"
+            ],
+            "0.70": [
+              "D014"
+            ],
+            "0.80": [],
+            "0.90": []
+          },
+          "elapsed_seconds": 0.2397,
+          "estimated_cost_usd": 0.000540036,
+          "input_tokens": 12858,
+          "key_probabilities": {
+            "D009": 0.54,
+            "D014": 0.76
+          },
+          "key_ranks": {
+            "D009": 3,
+            "D014": 1
+          },
+          "model": "jev-1.13.0",
+          "offered_at_each_cutoff": {
+            "0.50": [
+              "D009",
+              "D014"
+            ],
+            "0.70": [
+              "D014"
+            ],
+            "0.80": [],
+            "0.90": []
+          },
+          "output_tokens": 441,
+          "probabilities": {
+            "D001": 0.1,
+            "D002": 0.19,
+            "D003": 0.08,
+            "D004": 0.04,
+            "D005": 0.08,
+            "D006": 0.08,
+            "D007": 0.06,
+            "D008": 0.16,
+            "D009": 0.54,
+            "D010": 0.07,
+            "D011": 0.13,
+            "D012": 0.03,
+            "D013": 0.59,
+            "D014": 0.76,
+            "D015": 0.07,
+            "D016": 0.09,
+            "D017": 0.03,
+            "D018": 0.09,
+            "D019": 0.03,
+            "D020": 0.09,
+            "D021": 0.03,
+            "D022": 0.03,
+            "D023": 0.04
+          },
+          "top1_code": "D014",
+          "top1_probability": 0.76
+        },
+        "v1": {
+          "all23_at_each_cutoff": {
+            "0.50": [
+              "D014",
+              "D013",
+              "D009"
+            ],
+            "0.70": [
+              "D014",
+              "D013"
+            ],
+            "0.80": [],
+            "0.90": []
+          },
+          "elapsed_seconds": 0.2753,
+          "estimated_cost_usd": 0.000548814,
+          "input_tokens": 13067,
+          "key_probabilities": {
+            "D009": 0.52,
+            "D014": 0.77
+          },
+          "key_ranks": {
+            "D009": 3,
+            "D014": 1
+          },
+          "model": "jev-1.13.0",
+          "offered_at_each_cutoff": {
+            "0.50": [
+              "D009",
+              "D014"
+            ],
+            "0.70": [
+              "D014"
+            ],
+            "0.80": [],
+            "0.90": []
+          },
+          "output_tokens": 441,
+          "probabilities": {
+            "D001": 0.11,
+            "D002": 0.21,
+            "D003": 0.08,
+            "D004": 0.04,
+            "D005": 0.09,
+            "D006": 0.08,
+            "D007": 0.06,
+            "D008": 0.18,
+            "D009": 0.52,
+            "D010": 0.06,
+            "D011": 0.14,
+            "D012": 0.04,
+            "D013": 0.73,
+            "D014": 0.77,
+            "D015": 0.07,
+            "D016": 0.09,
+            "D017": 0.03,
+            "D018": 0.09,
+            "D019": 0.03,
+            "D020": 0.11,
+            "D021": 0.04,
+            "D022": 0.03,
+            "D023": 0.04
+          },
+          "top1_code": "D014",
+          "top1_probability": 0.77
+        }
+      },
+      "benchmark_key_codes": [
+        "D014",
+        "D009"
+      ],
+      "case_type": "type3",
+      "offered_option_codes": [
+        "D009",
+        "D010",
+        "D005",
+        "D014"
+      ],
+      "pair_code": "D014_D009",
+      "source_group_id": "D014_D009:h:01",
+      "source_row_index": 8801
+    }
+  ],
+  "contains_case_text": false,
+  "contains_raw_api_payload": false,
+  "failures": [],
+  "model": "jev-1.13.0",
+  "selection": "One deterministic exploration row from each of two new Type 3 diagnosis-pair groups",
+  "updated_at_utc": "2026-09-27T18:12:14.684246+00:00",
+  "version": "type3_v0_v1_second_batch_2case"
+}

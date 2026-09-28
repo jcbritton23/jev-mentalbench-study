@@ -1,0 +1,183 @@
+{
+  "cases": [
+    {
+      "baseline_top1": "D012",
+      "baseline_v1_probabilities": {
+        "D010": 0.03,
+        "D012": 0.9,
+        "D016": 0.11,
+        "D018": 0.17
+      },
+      "case_type": "type3",
+      "elapsed_seconds": 0.3143,
+      "estimated_cost_usd": 0.000105588,
+      "exact_set_at_0_50": {
+        "baseline": false,
+        "v1_1": false
+      },
+      "input_tokens": 2514,
+      "key_codes_local_only": [
+        "D012",
+        "D016"
+      ],
+      "model": "jev-1.13.0",
+      "option_codes": [
+        "D010",
+        "D012",
+        "D016",
+        "D018"
+      ],
+      "output_tokens": 80,
+      "row_index": 8268,
+      "source_group_id": "D012_D016:h:01",
+      "threshold_sets": {
+        "0.40": {
+          "baseline": [
+            "D012"
+          ],
+          "v1_1": [
+            "D012"
+          ]
+        },
+        "0.50": {
+          "baseline": [
+            "D012"
+          ],
+          "v1_1": [
+            "D012"
+          ]
+        }
+      },
+      "v1_1_probabilities": {
+        "D010": 0.03,
+        "D012": 0.91,
+        "D016": 0.11,
+        "D018": 0.16
+      },
+      "v1_1_top1": "D012"
+    },
+    {
+      "baseline_top1": "D012",
+      "baseline_v1_probabilities": {
+        "D010": 0.03,
+        "D012": 0.94,
+        "D016": 0.07,
+        "D018": 0.05
+      },
+      "case_type": "type4",
+      "elapsed_seconds": 0.1536,
+      "estimated_cost_usd": 0.000105798,
+      "exact_set_at_0_50": {
+        "baseline": true,
+        "v1_1": true
+      },
+      "input_tokens": 2519,
+      "key_codes_local_only": [
+        "D012"
+      ],
+      "model": "jev-1.13.0",
+      "option_codes": [
+        "D010",
+        "D012",
+        "D016",
+        "D018"
+      ],
+      "output_tokens": 80,
+      "row_index": 17909,
+      "source_group_id": "D012_D016:h:01",
+      "threshold_sets": {
+        "0.40": {
+          "baseline": [
+            "D012"
+          ],
+          "v1_1": [
+            "D012"
+          ]
+        },
+        "0.50": {
+          "baseline": [
+            "D012"
+          ],
+          "v1_1": [
+            "D012"
+          ]
+        }
+      },
+      "v1_1_probabilities": {
+        "D010": 0.03,
+        "D012": 0.92,
+        "D016": 0.07,
+        "D018": 0.05
+      },
+      "v1_1_top1": "D012"
+    },
+    {
+      "baseline_top1": "D016",
+      "baseline_v1_probabilities": {
+        "D010": 0.05,
+        "D012": 0.1,
+        "D016": 0.95,
+        "D018": 0.15
+      },
+      "case_type": "type4",
+      "elapsed_seconds": 0.328,
+      "estimated_cost_usd": 0.000106428,
+      "exact_set_at_0_50": {
+        "baseline": true,
+        "v1_1": true
+      },
+      "input_tokens": 2534,
+      "key_codes_local_only": [
+        "D016"
+      ],
+      "model": "jev-1.13.0",
+      "option_codes": [
+        "D010",
+        "D012",
+        "D016",
+        "D018"
+      ],
+      "output_tokens": 80,
+      "row_index": 17887,
+      "source_group_id": "D012_D016:h:01",
+      "threshold_sets": {
+        "0.40": {
+          "baseline": [
+            "D016"
+          ],
+          "v1_1": [
+            "D016"
+          ]
+        },
+        "0.50": {
+          "baseline": [
+            "D016"
+          ],
+          "v1_1": [
+            "D016"
+          ]
+        }
+      },
+      "v1_1_probabilities": {
+        "D010": 0.04,
+        "D012": 0.09,
+        "D016": 0.96,
+        "D018": 0.15
+      },
+      "v1_1_top1": "D016"
+    }
+  ],
+  "contains_case_text": false,
+  "contains_raw_api_payload": false,
+  "model": "jev-1.13.0",
+  "selection": "One hash-selected Type 3 and one Type 4 case keyed D012 and D016, all from exploration; Type 4 cases share the single available D012/D016 source group.",
+  "updated_at_utc": "2026-09-27T19:09:35.704267+00:00",
+  "usage": {
+    "elapsed_seconds_sum": 0.7959,
+    "estimated_cost_usd": 0.000317814,
+    "input_tokens": 7567,
+    "output_tokens": 240,
+    "requests": 3
+  },
+  "version": "phobia_ocd_guide_v1_1_exploration_check"
+}

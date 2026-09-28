@@ -30,7 +30,7 @@ The holdout split was frozen before its Jev calls. The dataset does not provide 
 - `PROTOCOL.md` records the study questions, development decisions, frozen analysis plan, and interpretation limits.
 - `prompts/` contains the diagnosis guides, question wording, development notes, and the pre-run v1.1 freeze record.
 - `scripts/` contains the audit, split, API runners, scorers, and tests.
-- `data/processed/` contains row/group split assignments and aggregate counts. These contain identifiers and split labels only, not case text, options, or answers.
+- `data/processed/` contains the group split assignment and aggregate counts. The complete bundle also contains the row-level split manifest. These contain identifiers and split labels only, not case text, options, or answers.
 - `docs/AUDIT.md` records dataset structure, related-case reconstruction, exclusion rules, and license information.
 - `results/` contains the concise reports and run summaries. The linked ZIP release asset contains the full case-level response journals and machine-readable metrics.
 

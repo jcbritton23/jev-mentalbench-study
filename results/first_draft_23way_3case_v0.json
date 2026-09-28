@@ -1,0 +1,288 @@
+{
+  "aggregate_usage": {
+    "estimated_cost_usd": 0.001619478,
+    "input_tokens": 38559,
+    "output_tokens": 1323
+  },
+  "cases": [
+    {
+      "all_23_probabilities": {
+        "D001": 0.07,
+        "D002": 0.12,
+        "D003": 0.04,
+        "D004": 0.16,
+        "D005": 0.86,
+        "D006": 0.1,
+        "D007": 0.21,
+        "D008": 0.06,
+        "D009": 0.06,
+        "D010": 0.08,
+        "D011": 0.06,
+        "D012": 0.03,
+        "D013": 0.19,
+        "D014": 0.21,
+        "D015": 0.2,
+        "D016": 0.09,
+        "D017": 0.18,
+        "D018": 0.06,
+        "D019": 0.03,
+        "D020": 0.06,
+        "D021": 0.05,
+        "D022": 0.04,
+        "D023": 0.03
+      },
+      "benchmark_key_codes": [
+        "D005"
+      ],
+      "case_label": "pilot_1_type1",
+      "case_type": "type1",
+      "elapsed_seconds": 0.3925,
+      "estimated_cost_usd": 0.000539364,
+      "input_tokens": 12842,
+      "key_probabilities_and_ranks": {
+        "D005": {
+          "diagnosis": "Schizophrenia",
+          "probability": 0.86,
+          "rank": 1
+        }
+      },
+      "key_recall_at_3": 1.0,
+      "known_key_recall_by_threshold": {
+        "0.50": 1.0,
+        "0.70": 1.0,
+        "0.80": 1.0,
+        "0.90": 0.0
+      },
+      "model": "jev-1.13.0",
+      "offered_option_codes": [
+        "D004",
+        "D006",
+        "D005",
+        "D007"
+      ],
+      "output_tokens": 441,
+      "source_group_id": "D005:l:03",
+      "source_row_index": 345,
+      "top1_code": "D005",
+      "top1_in_benchmark_key": true,
+      "top1_probability": 0.86,
+      "top_5": [
+        {
+          "code": "D005",
+          "diagnosis": "Schizophrenia",
+          "probability": 0.86
+        },
+        {
+          "code": "D007",
+          "diagnosis": "Schizoaffective Disorder (Depressive Type)",
+          "probability": 0.21
+        },
+        {
+          "code": "D014",
+          "diagnosis": "Persistent Depressive Disorder",
+          "probability": 0.21
+        },
+        {
+          "code": "D015",
+          "diagnosis": "Major Depressive Disorder with Psychotic Features",
+          "probability": 0.2
+        },
+        {
+          "code": "D013",
+          "diagnosis": "Major Depressive Disorder",
+          "probability": 0.19
+        }
+      ]
+    },
+    {
+      "all_23_probabilities": {
+        "D001": 0.03,
+        "D002": 0.04,
+        "D003": 0.03,
+        "D004": 0.04,
+        "D005": 0.04,
+        "D006": 0.04,
+        "D007": 0.04,
+        "D008": 0.04,
+        "D009": 0.04,
+        "D010": 0.04,
+        "D011": 0.09,
+        "D012": 0.11,
+        "D013": 0.16,
+        "D014": 0.05,
+        "D015": 0.06,
+        "D016": 0.07,
+        "D017": 0.03,
+        "D018": 0.33,
+        "D019": 0.87,
+        "D020": 0.21,
+        "D021": 0.02,
+        "D022": 0.02,
+        "D023": 0.03
+      },
+      "benchmark_key_codes": [
+        "D019"
+      ],
+      "case_label": "pilot_2_type2",
+      "case_type": "type2",
+      "elapsed_seconds": 0.4654,
+      "estimated_cost_usd": 0.000537936,
+      "input_tokens": 12808,
+      "key_probabilities_and_ranks": {
+        "D019": {
+          "diagnosis": "Acute Stress Disorder",
+          "probability": 0.87,
+          "rank": 1
+        }
+      },
+      "key_recall_at_3": 1.0,
+      "known_key_recall_by_threshold": {
+        "0.50": 1.0,
+        "0.70": 1.0,
+        "0.80": 1.0,
+        "0.90": 0.0
+      },
+      "model": "jev-1.13.0",
+      "offered_option_codes": [
+        "D016",
+        "D023",
+        "D019",
+        "D011"
+      ],
+      "output_tokens": 441,
+      "source_group_id": "D019:m:09",
+      "source_row_index": 4560,
+      "top1_code": "D019",
+      "top1_in_benchmark_key": true,
+      "top1_probability": 0.87,
+      "top_5": [
+        {
+          "code": "D019",
+          "diagnosis": "Acute Stress Disorder",
+          "probability": 0.87
+        },
+        {
+          "code": "D018",
+          "diagnosis": "Posttraumatic Stress Disorder",
+          "probability": 0.33
+        },
+        {
+          "code": "D020",
+          "diagnosis": "Adjustment Disorder",
+          "probability": 0.21
+        },
+        {
+          "code": "D013",
+          "diagnosis": "Major Depressive Disorder",
+          "probability": 0.16
+        },
+        {
+          "code": "D012",
+          "diagnosis": "Specific Phobia",
+          "probability": 0.11
+        }
+      ]
+    },
+    {
+      "all_23_probabilities": {
+        "D001": 0.16,
+        "D002": 0.18,
+        "D003": 0.14,
+        "D004": 0.23,
+        "D005": 0.81,
+        "D006": 0.5,
+        "D007": 0.5,
+        "D008": 0.5,
+        "D009": 0.27,
+        "D010": 0.53,
+        "D011": 0.25,
+        "D012": 0.03,
+        "D013": 0.49,
+        "D014": 0.11,
+        "D015": 0.41,
+        "D016": 0.11,
+        "D017": 0.04,
+        "D018": 0.1,
+        "D019": 0.04,
+        "D020": 0.1,
+        "D021": 0.03,
+        "D022": 0.03,
+        "D023": 0.03
+      },
+      "benchmark_key_codes": [
+        "D006",
+        "D010"
+      ],
+      "case_label": "pilot_3_type3",
+      "case_type": "type3",
+      "elapsed_seconds": 0.2191,
+      "estimated_cost_usd": 0.000542178,
+      "input_tokens": 12909,
+      "key_probabilities_and_ranks": {
+        "D006": {
+          "diagnosis": "Schizoaffective Disorder (Bipolar Type)",
+          "probability": 0.5,
+          "rank": 3
+        },
+        "D010": {
+          "diagnosis": "Bipolar I Disorder with Psychotic Features",
+          "probability": 0.53,
+          "rank": 2
+        }
+      },
+      "key_recall_at_3": 1.0,
+      "known_key_recall_by_threshold": {
+        "0.50": 1.0,
+        "0.70": 0.0,
+        "0.80": 0.0,
+        "0.90": 0.0
+      },
+      "model": "jev-1.13.0",
+      "offered_option_codes": [
+        "D010",
+        "D016",
+        "D006",
+        "D004"
+      ],
+      "output_tokens": 441,
+      "source_group_id": "D006_D010:h:00",
+      "source_row_index": 6825,
+      "top1_code": "D005",
+      "top1_in_benchmark_key": false,
+      "top1_probability": 0.81,
+      "top_5": [
+        {
+          "code": "D005",
+          "diagnosis": "Schizophrenia",
+          "probability": 0.81
+        },
+        {
+          "code": "D010",
+          "diagnosis": "Bipolar I Disorder with Psychotic Features",
+          "probability": 0.53
+        },
+        {
+          "code": "D006",
+          "diagnosis": "Schizoaffective Disorder (Bipolar Type)",
+          "probability": 0.5
+        },
+        {
+          "code": "D007",
+          "diagnosis": "Schizoaffective Disorder (Depressive Type)",
+          "probability": 0.5
+        },
+        {
+          "code": "D008",
+          "diagnosis": "Bipolar I Disorder",
+          "probability": 0.5
+        }
+      ]
+    }
+  ],
+  "contains_case_text": false,
+  "contains_raw_api_payload": false,
+  "failures": [],
+  "model": "jev-1.13.0",
+  "pilot_version": "first_draft_23way_3case_v0",
+  "started_or_updated_at_utc": "2026-09-27T16:34:16.577944+00:00"
+}

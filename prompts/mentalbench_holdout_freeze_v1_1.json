@@ -1,0 +1,43 @@
+{
+  "run_id": "mentalbench_holdout_v1_1_both_arms",
+  "status": "frozen_before_holdout",
+  "model": "jev-1.13.0",
+  "prompt_version": "v1_1_frozen",
+  "arms": ["all23", "four"],
+  "primary_differential_cutoff": 0.5,
+  "secondary_type3_cutoff": 0.4,
+  "paper_style_rule": "Types 1 and 2: top diagnosis; Types 3 and 4: exact four-option answer set at the primary cutoff",
+  "expected_cases": 22785,
+  "expected_requests": 45570,
+  "expected_groups": 673,
+  "expected_type_counts": {
+    "type1": 990,
+    "type2": 2760,
+    "type3": 6345,
+    "type4": 12690
+  },
+  "workers": 3,
+  "max_attempts_per_request": 3,
+  "max_input_tokens_per_attempt": 64000,
+  "input_price_usd_per_token": 0.000000042,
+  "holdout_cost_cap_usd": 17.5,
+  "development_projection_usd": 15.258431482071428,
+  "source_sha256": "92b8d1c835a1aad22161e2b4bc1444823ed22d91275df99463b3b5e488bec957",
+  "row_split_sha256": "159ac6be6491d3ab46cc8a4ef1ea068536e4b7ccd186898a4648b7f776808926",
+  "group_split_sha256": "9f58baf357fd4da0764b85ccb25ae557fe04048599568fae4f19baad98f3055d",
+  "implementation_sha256": {
+    "scripts/compare_type3_prompts_v0_v1.py": "ee4994e8bbec73c83296ab08c9a33f2aab931f1a06826fa35732d24e213f8c6e",
+    "scripts/pilot_23way.py": "de0b0333a12019687c646a086177b09919505182887ea3f64320e9b71bbb30d3",
+    "scripts/smoke_test.py": "c13b53fc42c61b6dd8a1c412e69e22b2e11ad56d537614a75d7a7d18b1dc0b1e",
+    "scripts/run_holdout_v1_1.py": "05f7b15de343c79cf50f55ed17995694e70d38e33df049acac16f975195154c6",
+    "scripts/summarize_holdout_v1_1.py": "ccf5f18d9881f0013a981bb2c2a2422e9bd4c76d3c743c9a275f0ad3b813506f",
+    "scripts/summarize_exploration_v1.py": "b920a79373a0a1818b8e148a7b758876893be674d57383a2bcfdf4ce2a04da96"
+  },
+  "prompt_sha256": {
+    "prompts/basic_diagnosis_guides_v0.md": "f6aa829a3525f6683557db3944945ba86c7cdab0a21643bedae8042fc6540f80",
+    "prompts/complex_diagnosis_guides_v0.md": "6510bdf56fd4bff979e46b68e3cf0a2497583e18881f71fd2cd68aba0c0b17a0",
+    "prompts/d013_mdd_sample_v0.md": "71eaf3b17a2c190b238b5d413b8945c96ede5aa49783bf69b06a9feef9d883c2",
+    "prompts/mentalbench_v0.md": "132cf92e55f77e06219cba01ed3dde8e63b5e3e2e62ff0c0d5309ac7f082a589",
+    "prompts/mentalbench_v1_question_candidate.md": "ee6428810c37b4ac7a06fe7191f439e42c07d5c41dadd4d18e10944b81abb647"
+  }
+}

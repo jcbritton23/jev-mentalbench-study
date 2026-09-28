@@ -1,0 +1,194 @@
+{
+  "aggregate_usage": {
+    "elapsed_seconds_total_sequential": 0.6242,
+    "estimated_cost_usd": 0.0010794,
+    "input_tokens": 25700,
+    "output_tokens": 882
+  },
+  "cases": [
+    {
+      "all_23_probabilities": {
+        "D001": 0.06,
+        "D002": 0.12,
+        "D003": 0.05,
+        "D004": 0.23,
+        "D005": 0.64,
+        "D006": 0.1,
+        "D007": 0.47,
+        "D008": 0.09,
+        "D009": 0.09,
+        "D010": 0.13,
+        "D011": 0.14,
+        "D012": 0.04,
+        "D013": 0.72,
+        "D014": 0.33,
+        "D015": 0.77,
+        "D016": 0.1,
+        "D017": 0.07,
+        "D018": 0.12,
+        "D019": 0.04,
+        "D020": 0.08,
+        "D021": 0.04,
+        "D022": 0.04,
+        "D023": 0.08
+      },
+      "benchmark_key_codes": [
+        "D007",
+        "D015"
+      ],
+      "case_label": "type3_followup_1",
+      "elapsed_seconds": 0.4172,
+      "estimated_cost_usd": 0.00053991,
+      "input_tokens": 12855,
+      "key_probabilities_and_ranks": {
+        "D007": {
+          "diagnosis": "Schizoaffective Disorder (Depressive Type)",
+          "probability": 0.47,
+          "rank": 4
+        },
+        "D015": {
+          "diagnosis": "Major Depressive Disorder with Psychotic Features",
+          "probability": 0.77,
+          "rank": 1
+        }
+      },
+      "model": "jev-1.13.0",
+      "offered_option_codes": [
+        "D007",
+        "D001",
+        "D014",
+        "D015"
+      ],
+      "output_tokens": 441,
+      "pair_code": "D007_D015",
+      "source_group_id": "D007_D015:h:03",
+      "source_row_index": 7031,
+      "top1_code": "D015",
+      "top1_in_benchmark_key": true,
+      "top1_probability": 0.77,
+      "top_5": [
+        {
+          "code": "D015",
+          "diagnosis": "Major Depressive Disorder with Psychotic Features",
+          "probability": 0.77
+        },
+        {
+          "code": "D013",
+          "diagnosis": "Major Depressive Disorder",
+          "probability": 0.72
+        },
+        {
+          "code": "D005",
+          "diagnosis": "Schizophrenia",
+          "probability": 0.64
+        },
+        {
+          "code": "D007",
+          "diagnosis": "Schizoaffective Disorder (Depressive Type)",
+          "probability": 0.47
+        },
+        {
+          "code": "D014",
+          "diagnosis": "Persistent Depressive Disorder",
+          "probability": 0.33
+        }
+      ]
+    },
+    {
+      "all_23_probabilities": {
+        "D001": 0.09,
+        "D002": 0.14,
+        "D003": 0.08,
+        "D004": 0.39,
+        "D005": 0.16,
+        "D006": 0.11,
+        "D007": 0.17,
+        "D008": 0.11,
+        "D009": 0.19,
+        "D010": 0.15,
+        "D011": 0.54,
+        "D012": 0.03,
+        "D013": 0.83,
+        "D014": 0.2,
+        "D015": 0.33,
+        "D016": 0.25,
+        "D017": 0.04,
+        "D018": 0.07,
+        "D019": 0.04,
+        "D020": 0.54,
+        "D021": 0.03,
+        "D022": 0.03,
+        "D023": 0.04
+      },
+      "benchmark_key_codes": [
+        "D004",
+        "D015"
+      ],
+      "case_label": "type3_followup_2",
+      "elapsed_seconds": 0.207,
+      "estimated_cost_usd": 0.00053949,
+      "input_tokens": 12845,
+      "key_probabilities_and_ranks": {
+        "D004": {
+          "diagnosis": "Delusional Disorder",
+          "probability": 0.39,
+          "rank": 4
+        },
+        "D015": {
+          "diagnosis": "Major Depressive Disorder with Psychotic Features",
+          "probability": 0.33,
+          "rank": 5
+        }
+      },
+      "model": "jev-1.13.0",
+      "offered_option_codes": [
+        "D017",
+        "D007",
+        "D004",
+        "D015"
+      ],
+      "output_tokens": 441,
+      "pair_code": "D004_D015",
+      "source_group_id": "D004_D015:h:02",
+      "source_row_index": 6186,
+      "top1_code": "D013",
+      "top1_in_benchmark_key": false,
+      "top1_probability": 0.83,
+      "top_5": [
+        {
+          "code": "D013",
+          "diagnosis": "Major Depressive Disorder",
+          "probability": 0.83
+        },
+        {
+          "code": "D011",
+          "diagnosis": "Generalized Anxiety Disorder",
+          "probability": 0.54
+        },
+        {
+          "code": "D020",
+          "diagnosis": "Adjustment Disorder",
+          "probability": 0.54
+        },
+        {
+          "code": "D004",
+          "diagnosis": "Delusional Disorder",
+          "probability": 0.39
+        },
+        {
+          "code": "D015",
+          "diagnosis": "Major Depressive Disorder with Psychotic Features",
+          "probability": 0.33
+        }
+      ]
+    }
+  ],
+  "contains_case_text": false,
+  "contains_raw_api_payload": false,
+  "failures": [],
+  "model": "jev-1.13.0",
+  "pilot_version": "type3_psychosis_followup_2case_v0",
+  "selection": "One hash-selected Type 3 exploration row from each of D007_D015 and D004_D015",
+  "study_arm": "all_23_candidates",
+  "updated_at_utc": "2026-09-27T16:41:29.788659+00:00"
+}

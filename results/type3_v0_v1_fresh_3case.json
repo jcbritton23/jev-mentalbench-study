@@ -1,0 +1,347 @@
+{
+  "aggregate_usage": {
+    "estimated_cost_usd": 0.003255042,
+    "input_tokens": 77501,
+    "output_tokens": 2646
+  },
+  "cases": [
+    {
+      "arms": {
+        "v0": {
+          "elapsed_seconds": 0.3978,
+          "estimated_cost_usd": 0.00053886,
+          "input_tokens": 12830,
+          "key_probabilities": {
+            "D003": 0.83,
+            "D008": 0.22
+          },
+          "key_ranks": {
+            "D003": 1,
+            "D008": 3
+          },
+          "model": "jev-1.13.0",
+          "n_all23_at_0_5": 1,
+          "offered_set_at_0_5": [
+            "D003"
+          ],
+          "output_tokens": 441,
+          "probabilities": {
+            "D001": 0.3,
+            "D002": 0.12,
+            "D003": 0.83,
+            "D004": 0.03,
+            "D005": 0.05,
+            "D006": 0.06,
+            "D007": 0.04,
+            "D008": 0.22,
+            "D009": 0.14,
+            "D010": 0.06,
+            "D011": 0.2,
+            "D012": 0.03,
+            "D013": 0.06,
+            "D014": 0.05,
+            "D015": 0.04,
+            "D016": 0.06,
+            "D017": 0.03,
+            "D018": 0.07,
+            "D019": 0.04,
+            "D020": 0.17,
+            "D021": 0.03,
+            "D022": 0.03,
+            "D023": 0.04
+          },
+          "top1_code": "D003",
+          "top1_probability": 0.83
+        },
+        "v1": {
+          "elapsed_seconds": 0.2744,
+          "estimated_cost_usd": 0.000547638,
+          "input_tokens": 13039,
+          "key_probabilities": {
+            "D003": 0.84,
+            "D008": 0.28
+          },
+          "key_ranks": {
+            "D003": 1,
+            "D008": 3
+          },
+          "model": "jev-1.13.0",
+          "n_all23_at_0_5": 1,
+          "offered_set_at_0_5": [
+            "D003"
+          ],
+          "output_tokens": 441,
+          "probabilities": {
+            "D001": 0.3,
+            "D002": 0.11,
+            "D003": 0.84,
+            "D004": 0.04,
+            "D005": 0.05,
+            "D006": 0.06,
+            "D007": 0.04,
+            "D008": 0.28,
+            "D009": 0.17,
+            "D010": 0.06,
+            "D011": 0.21,
+            "D012": 0.03,
+            "D013": 0.07,
+            "D014": 0.05,
+            "D015": 0.04,
+            "D016": 0.06,
+            "D017": 0.03,
+            "D018": 0.07,
+            "D019": 0.05,
+            "D020": 0.18,
+            "D021": 0.03,
+            "D022": 0.03,
+            "D023": 0.04
+          },
+          "top1_code": "D003",
+          "top1_probability": 0.84
+        }
+      },
+      "benchmark_key_codes": [
+        "D003",
+        "D008"
+      ],
+      "case_type": "type3",
+      "offered_option_codes": [
+        "D013",
+        "D003",
+        "D008",
+        "D017"
+      ],
+      "pair_code": "D003_D008",
+      "source_group_id": "D003_D008:h:01",
+      "source_row_index": 5796
+    },
+    {
+      "arms": {
+        "v0": {
+          "elapsed_seconds": 0.4081,
+          "estimated_cost_usd": 0.00053907,
+          "input_tokens": 12835,
+          "key_probabilities": {
+            "D005": 0.6,
+            "D018": 0.47
+          },
+          "key_ranks": {
+            "D005": 2,
+            "D018": 3
+          },
+          "model": "jev-1.13.0",
+          "n_all23_at_0_5": 2,
+          "offered_set_at_0_5": [
+            "D005"
+          ],
+          "output_tokens": 441,
+          "probabilities": {
+            "D001": 0.06,
+            "D002": 0.07,
+            "D003": 0.07,
+            "D004": 0.62,
+            "D005": 0.6,
+            "D006": 0.13,
+            "D007": 0.19,
+            "D008": 0.09,
+            "D009": 0.08,
+            "D010": 0.13,
+            "D011": 0.23,
+            "D012": 0.06,
+            "D013": 0.12,
+            "D014": 0.08,
+            "D015": 0.13,
+            "D016": 0.12,
+            "D017": 0.04,
+            "D018": 0.47,
+            "D019": 0.14,
+            "D020": 0.3,
+            "D021": 0.03,
+            "D022": 0.03,
+            "D023": 0.03
+          },
+          "top1_code": "D004",
+          "top1_probability": 0.62
+        },
+        "v1": {
+          "elapsed_seconds": 0.408,
+          "estimated_cost_usd": 0.000547848,
+          "input_tokens": 13044,
+          "key_probabilities": {
+            "D005": 0.63,
+            "D018": 0.52
+          },
+          "key_ranks": {
+            "D005": 2,
+            "D018": 3
+          },
+          "model": "jev-1.13.0",
+          "n_all23_at_0_5": 3,
+          "offered_set_at_0_5": [
+            "D018",
+            "D005"
+          ],
+          "output_tokens": 441,
+          "probabilities": {
+            "D001": 0.06,
+            "D002": 0.07,
+            "D003": 0.07,
+            "D004": 0.66,
+            "D005": 0.63,
+            "D006": 0.15,
+            "D007": 0.23,
+            "D008": 0.1,
+            "D009": 0.09,
+            "D010": 0.13,
+            "D011": 0.25,
+            "D012": 0.06,
+            "D013": 0.17,
+            "D014": 0.08,
+            "D015": 0.14,
+            "D016": 0.12,
+            "D017": 0.05,
+            "D018": 0.52,
+            "D019": 0.14,
+            "D020": 0.35,
+            "D021": 0.03,
+            "D022": 0.03,
+            "D023": 0.03
+          },
+          "top1_code": "D004",
+          "top1_probability": 0.66
+        }
+      },
+      "benchmark_key_codes": [
+        "D005",
+        "D018"
+      ],
+      "case_type": "type3",
+      "offered_option_codes": [
+        "D022",
+        "D015",
+        "D018",
+        "D005"
+      ],
+      "pair_code": "D005_D018",
+      "source_group_id": "D005_D018:h:00",
+      "source_row_index": 6687
+    },
+    {
+      "arms": {
+        "v0": {
+          "elapsed_seconds": 0.2292,
+          "estimated_cost_usd": 0.000536424,
+          "input_tokens": 12772,
+          "key_probabilities": {
+            "D019": 0.25,
+            "D020": 0.59
+          },
+          "key_ranks": {
+            "D019": 5,
+            "D020": 2
+          },
+          "model": "jev-1.13.0",
+          "n_all23_at_0_5": 2,
+          "offered_set_at_0_5": [
+            "D020"
+          ],
+          "output_tokens": 441,
+          "probabilities": {
+            "D001": 0.11,
+            "D002": 0.18,
+            "D003": 0.11,
+            "D004": 0.04,
+            "D005": 0.06,
+            "D006": 0.05,
+            "D007": 0.06,
+            "D008": 0.08,
+            "D009": 0.09,
+            "D010": 0.06,
+            "D011": 0.66,
+            "D012": 0.09,
+            "D013": 0.27,
+            "D014": 0.11,
+            "D015": 0.07,
+            "D016": 0.1,
+            "D017": 0.03,
+            "D018": 0.42,
+            "D019": 0.25,
+            "D020": 0.59,
+            "D021": 0.03,
+            "D022": 0.03,
+            "D023": 0.03
+          },
+          "top1_code": "D011",
+          "top1_probability": 0.66
+        },
+        "v1": {
+          "elapsed_seconds": 0.2429,
+          "estimated_cost_usd": 0.000545202,
+          "input_tokens": 12981,
+          "key_probabilities": {
+            "D019": 0.26,
+            "D020": 0.62
+          },
+          "key_ranks": {
+            "D019": 5,
+            "D020": 2
+          },
+          "model": "jev-1.13.0",
+          "n_all23_at_0_5": 2,
+          "offered_set_at_0_5": [
+            "D020"
+          ],
+          "output_tokens": 441,
+          "probabilities": {
+            "D001": 0.12,
+            "D002": 0.2,
+            "D003": 0.12,
+            "D004": 0.04,
+            "D005": 0.07,
+            "D006": 0.06,
+            "D007": 0.06,
+            "D008": 0.09,
+            "D009": 0.09,
+            "D010": 0.06,
+            "D011": 0.7,
+            "D012": 0.08,
+            "D013": 0.36,
+            "D014": 0.12,
+            "D015": 0.08,
+            "D016": 0.1,
+            "D017": 0.03,
+            "D018": 0.46,
+            "D019": 0.26,
+            "D020": 0.62,
+            "D021": 0.03,
+            "D022": 0.03,
+            "D023": 0.03
+          },
+          "top1_code": "D011",
+          "top1_probability": 0.7
+        }
+      },
+      "benchmark_key_codes": [
+        "D019",
+        "D020"
+      ],
+      "case_type": "type3",
+      "offered_option_codes": [
+        "D018",
+        "D005",
+        "D020",
+        "D019"
+      ],
+      "pair_code": "D019_D020",
+      "source_group_id": "D019_D020:h:02",
+      "source_row_index": 10759
+    }
+  ],
+  "contains_case_text": false,
+  "contains_raw_api_payload": false,
+  "failures": [],
+  "model": "jev-1.13.0",
+  "selection": "Hash-selected exploration-only Type 3 rows from three independent, previously untested pair groups",
+  "updated_at_utc": "2026-09-27T16:52:39.971589+00:00",
+  "version": "type3_v0_v1_fresh_3case"
+}

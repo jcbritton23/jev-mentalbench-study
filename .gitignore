@@ -1,0 +1,21 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Never commit source dataset files or text-bearing intermediate data.
+data/raw/
+data/interim/*
+!data/interim/mentalbench_metadata_audit.json
+data/processed/*
+!data/processed/mentalbench_group_split_v1.csv
+!data/processed/mentalbench_row_split_v1.csv
+!data/processed/mentalbench_split_summary_v1.json
+
+# Full journals and machine metrics are distributed only in the results bundle.
+results/**/responses.jsonl
+results/**/sessions.jsonl
+results/**/metrics.json
